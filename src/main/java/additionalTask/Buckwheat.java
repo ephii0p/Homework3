@@ -14,7 +14,7 @@ public class Buckwheat {
         calculations[1] = (buckwheatWeight - buckwheatPerMonth) * rentPerKg;
         calculations[2] = calculations[1] - (buckwheatPerMonth * rentPerKg);
         calculations[3] = calculations[2] - (buckwheatPerMonth * rentPerKg);
-        calculations[4] = calculations[3] - -(buckwheatPerMonth * rentPerKg);
+        calculations[4] = calculations[3] - (buckwheatPerMonth * rentPerKg);
 
         for (int i = 0; i < 5; i++) {
             System.out.println(calculations[i]);
