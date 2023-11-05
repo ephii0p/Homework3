@@ -1,4 +1,4 @@
-package additionalTask;
+/*package additionalTask;
 
 public class Buckwheat {
     public static int months = 5;
@@ -20,4 +20,4 @@ public class Buckwheat {
             System.out.println(calculations[i]);
         }
     }
-}
+}*/

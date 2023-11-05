@@ -1,10 +1,10 @@
 public class MultiplicationTable {
     public static void main(String[] args) {
-        for(int i = 1; i < 11; i++){
-            for(int j = 1; j < 11; j++){
-                System.out.print(" " + " " + " " + " " + " " + j * i + " ");
+        for(int i = 0; i < 10; i++){
+            for(int j = 0; j < 10; j++){
+                System.out.printf( "%5d", (i+1) * (j+1));
             }
-            System.out.println(" ");
+            System.out.println("\n");
         }
     }
 }
