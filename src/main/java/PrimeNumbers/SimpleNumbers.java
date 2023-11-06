@@ -7,21 +7,18 @@ public class SimpleNumbers {
         boolean primeNumber = true;
         if (num == 1) {
             primeNumber = false;
-        }
-        else {
+        } else {
             int i = 2;
             while (i != num) {
                 if (num % i == 0) {
                     primeNumber = false;
                     break;
-                } else
-                {
+                } else {
                     primeNumber = true;
                 }
                 i++;
             }
         }
-
         return primeNumber;
     }
 }
