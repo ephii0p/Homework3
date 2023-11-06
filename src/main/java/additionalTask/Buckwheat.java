@@ -1,23 +1,17 @@
-/*package additionalTask;
+package additionalTask;
 
 public class Buckwheat {
     public static int months = 5;
+    public static int buckwheatPerMonth = 6;
+    public static int buckwheatWeight = months * buckwheatPerMonth;
+    public static int rentPerKg = 100;
 
     public static void main(String[] args) {
-
-        int rentPerKg = 100;
-        int buckwheatPerMonth = 6;
-        int buckwheatWeight = months * buckwheatPerMonth;
-
-        int[] calculations = new int[6];
-        calculations[0] = buckwheatWeight * rentPerKg;
-        calculations[1] = (buckwheatWeight - buckwheatPerMonth) * rentPerKg;
-        calculations[2] = calculations[1] - (buckwheatPerMonth * rentPerKg);
-        calculations[3] = calculations[2] - (buckwheatPerMonth * rentPerKg);
-        calculations[4] = calculations[3] - (buckwheatPerMonth * rentPerKg);
-        calculations[5] = calculations[4]- (buckwheatPerMonth * rentPerKg);
-        for (int i = 0; i < 6; i++) {
-            System.out.println(calculations[i]);
+        int q = 0;
+        for (int i =1; i <= 1; i++) {
+            for (int j = buckwheatWeight; j >= 0; j = j - 6) {
+                q += j * rentPerKg;
+            }System.out.println(q);
         }
     }
-}*/
+}
