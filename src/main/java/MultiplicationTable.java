@@ -4,7 +4,7 @@ public class MultiplicationTable {
             for (int j = 0; j < 10; j++) {
                 System.out.printf("%5d", (i + 1) * (j + 1));
             }
-            System.out.println("\n");
+            System.out.println("");
         }
     }
 }
